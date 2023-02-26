@@ -4,7 +4,7 @@
 Esse projeto está contenerizado usando docker, para isso é nescessário que você tenha o docker engine e o docker compose instalado nas sua máquina. Dessa forma ele vai executar tudo que a aplicação precisa. Esse projeto não ultiliza nenhuma variável de ambiente.
 
 ```console
-docker comopse up --build
+docker compose up --build
 ```
 
 ## Aviso
