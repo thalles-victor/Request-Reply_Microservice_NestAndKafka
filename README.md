@@ -3,6 +3,20 @@
 ## Iniciando o projeto
 Esse projeto está contenerizado usando docker, para isso é nescessário que você tenha o docker engine e o docker compose instalado, dessa forma ele vai executar tudo o que a aplicação precisa.
 
+Instale as dependências para que o vscode não reclame de erros.
+
+api_gateway
+```console
+cd ./api_gateway ; npm install
+```
+
+user microservice
+```console
+cd "./microservices/user ; npm install
+```
+
+depois suba a aplicação rodando
+
 ```console
 docker compose up --build
 ```
